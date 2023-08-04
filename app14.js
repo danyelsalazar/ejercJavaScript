@@ -28,6 +28,7 @@ const cargarDatos = () => {
     let numeroPaginas = parseInt(prompt("Ingresa la cantidad de paginas"));
 
     const libro = new Libro(isbn, titulo, autor, numeroPaginas);
+    
     return libro;
 }
 
